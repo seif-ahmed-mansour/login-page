@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    font-family: "poppins" , "sans-serif";
+}
+.container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h1{
+    text-align: center;
+    color: #d7f3fe;
+}
+.login{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.wrapper{
+    position: relative;
+    overflow: visible;
+}
+form{
+    padding: 50px;
+}
+.name-input{
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 0.8rem;
+    background-color: transparent;
+    color: #d7f3fe;
+    padding: 5px 20px;
+}
+.name-label{
+    position: absolute;
+    top:0.2rem ;
+    left:0.6rem ;
+    color: #d7f3fe;
+    font-size: 0.8rem;
+    transition: 0.4s all;
+    padding-inline:0.25rem ;
+}
+.name-input:focus~.name-label,
+.name-input:valid~.name-label{
+    top:-1.3rem ;
+    left: 0.1rem;
+    font-size: 0.6rem;
+    background-color: #0f0f10;
+    padding: 12px;
+    z-index: 9999;
+    padding-bottom: 0px;
+}
+form .wrapper input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+.btno{
+    background-color: transparent;
+    margin-top: 19px;
+    color: #d7f3fe;
+    font-size: 0.9rem;
+    border: 1px solid red;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.btno:hover{
+    background-color: red;
+    color: #d7f3fe;
+    
+}
+.forget-signup{
+    margin-top: 20px;
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: space-between;
+}
+a{
+    color: #d7f3fe;
+}
+.sign-up{
+    text-decoration: underline;
+
+}
+a:hover{
+    color: #d7f3fe;
+}
+
