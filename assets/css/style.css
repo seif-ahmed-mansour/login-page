@@ -69,6 +69,7 @@ form .wrapper input:focus{
 }
 a{
     text-decoration: none;
+    font-size: 0.7rem;
 }
 .btno:hover{
     background-color: red;
