@@ -1,0 +1,1 @@
+alert("trying to use git by vs code")
